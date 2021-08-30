@@ -1,0 +1,95 @@
+.rating-1 {
+    display: flex;
+    flex-direction: row-reverse;
+    height: 20px;
+    margin-left: 8px;
+}
+.rating-1 label {
+    float: right;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    margin-top: -3px;
+}
+.rating-1 label:not(:first-of-type) {
+    padding-right: 2px;
+}
+.rating-1 label:before {
+    content: "★";
+    font-size: 24px;
+    color: rgba(43, 103, 246, 0.16);
+    line-height: 1;
+}
+.rating-1 input {
+    display: none;
+}
+.rating-1 input:checked ~ label:before,
+.rating-1:not(:checked) > label:hover:before,
+.rating-1:not(:checked) > label:hover ~ label:before {
+    color: #2b67f6;
+}
+/************/
+.rating-2 {
+    display: flex;
+    flex-direction: row-reverse;
+    height: 20px;
+    margin-left: 8px;
+}
+.rating-2 label {
+    float: right;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    margin-top: -3px;
+}
+.rating-2 label:not(:first-of-type) {
+    padding-right: 2px;
+}
+.rating-2 label:before {
+    content: "★";
+    font-size: 24px;
+    color: rgba(43, 103, 246, 0.16);
+    line-height: 1;
+}
+.rating-2 input {
+    display: none;
+}
+.rating-2 input:checked ~ label:before,
+.rating-2:not(:checked) > label:hover:before,
+.rating-2:not(:checked) > label:hover ~ label:before {
+    color: #2b67f6;
+}
+/************/
+.rating-3 {
+    display: flex;
+    flex-direction: row-reverse;
+    height: 20px;
+    margin-left: 8px;
+}
+.rating-3 label {
+    float: right;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    margin-top: -3px;
+}
+.rating-3 label:not(:first-of-type) {
+    padding-right: 2px;
+}
+.rating-3 label:before {
+    content: "★";
+    font-size: 24px;
+    color: rgba(43, 103, 246, 0.16);
+    line-height: 1;
+}
+.rating-3 input {
+    display: none;
+}
+.rating-3 input:checked ~ label:before,
+.rating-3:not(:checked) > label:hover:before,
+.rating-3:not(:checked) > label:hover ~ label:before {
+    color: #2b67f6;
+}

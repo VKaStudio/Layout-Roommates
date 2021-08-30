@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="rating.css">
+    <title>Roommates</title>
+    <script src="https://kit.fontawesome.com/51080cdc4a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <div class="header-right-side">
+            <div class="header-title">
+                <img class="header-logo" src="img/logo.svg" alt="logo">
+                <h2>Room<span>mates</span></h2>
+            </div>
+            <div class="header-search">
+                <input type="search" id="site-search" name="q" value="New York" aria-label="New York">
+                <button><i class="fas fa-search"></i></button>
+            </div>
+        </div>
+        <div class="header-left-side">
+            <div class="header-soc-btns">
+                <div class="soc-btn-mess">
+                    <button><img src="img/Vector.png" alt=""></button>
+                    <span class="notification mess-notification" style="display: none;"></span>
+                </div>
+                <div class="soc-btn-sub">
+                    <button><img src="img/Vector(1).png" alt=""></button>
+                    <span class="notification sub-notification">1</span>
+                </div>
+                <div class="soc-btn-like">
+                    <button><img src="img/Vector(2).png" alt=""></button>
+                </div>
+            </div>
+            <div class="header-profile">
+                <a href="#" class="profile-img-prev">
+                </a>
+                <div class="profile-name-prev">
+                    <span class="name-pofile">Richard Lucas</span>
+                    <span>Renter</span>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">US
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="#">US</a>
+                    <a href="#">UA</a>
+                    <a href="#">RU</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="main-left-side">
+            <div class="header-left-side">
+                <div class="header-title">
+                    <h2>Apartments in New York</h2>
+                    <span class="header-description">1248 results • Jul 14 - 21</span>
+                </div>
+                <div class="swither-wrapper">
+                    <label class="title-of-swither" for="swither-roommates">Roomates</label>
+                    <label class="switch">
+                        <input type="checkbox" id="swither-roommates" checked>
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+            </div>
+            <div class="filters-left-side">
+                <div class="filter-btns">
+                    <button class="btn-price"><i><img src="img/1.svg"></i>Price</button>
+                    <button class="btn-apartment"><i><img src="img/2.svg"></i>Apartment</button>
+                    <button class="btn-floor"><i><img src="img/3.svg"></i>Floor</button>
+                    <button class="btn-more"><i><img src="img/4.svg"></i>More</button>
+                </div>
+                <div class="sort-btns">
+                    <a class="" href="#"><i class="fas fa-th-large"></i></a>
+                    <a class="grid-active" href="#"><i class="fas fa-th-list"></i></a>
+                    <span class="sort-desc">Sort by:</span>
+                    <span class="sort-status">Price</span>
+                </div>
+            </div>
+            <div class="blocks-left-side">
+                <div class="block">
+                    <div class="block-image">
+                        <div class="block-info">
+                             <div class="photo-roommates">
+                            <img src="img/Ellipse17.png" alt="">
+                            <img src="img/Ellipse18.png" alt="">
+                            </div>
+                            <div class="info-roommates">
+                                <span class="number-roommates">2</span> Roommates <br>
+                                <span class="name-of-roommates">Richard and Gill</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="block-text">
+                        <div class="block-title">
+                            <h3>The People's Brownstone</h3>
+                        </div>
+                        <div class="block-location">
+                            <img src="img/map-point-icon.svg" alt="map-point-icon">
+                            <span class="text-location">1995 Broadway, New York</span>
+                        </div>
+                        <div class="block-features">
+                            Wifi • Air conditioning • Kitchen • Heating • Smokers
+                            • Parking • Balcony • Animal friendly
+                        </div>
+                        <div class="block-tags">
+                            <span class="tag-blue">New Building</span>
+                            <span class="tag-green">Common Friends</span>
+                        </div>
+                        <div class="block-footer">
+                            <div class="block-footer-rewiews">
+                                <span class="number-of-rating">4</span>
+                                <div class="rating-1">
+                                    <input type="radio" class="rating-input" id="star5-first" name="rating" value="5" /><label for="star5-first"></label>
+                                    <input type="radio" class="rating-input" id="star4-first" name="rating" value="4" checked /><label for="star4-first"></label>
+                                    <input type="radio" class="rating-input" id="star3-first" name="rating" value="3" /><label for="star3-first"></label>
+                                    <input type="radio" class="rating-input" id="star2-first" name="rating" value="2" /><label for="star2-first"></label>
+                                    <input type="radio" class="rating-input" id="star1-first" name="rating" value="1" /><label for="star1-first"></label>
+                                </div>
+                                <span class="number-of-rewiews">(7 Reviews)</span>
+                            </div>
+                            <div class="block-footer-price">
+                                <span class="floor-price">3000</span>
+                                /month
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="block-like-icon">
+                        <a href="#"><i class="far fa-heart"></i></a>
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="block-image block-image-2">
+                        <div class="block-info">
+                            <div class="photo-roommates">
+                                <img src="img/Ellipse19.png" alt="">
+                                <img src="img/Ellipse20.png" alt="">
+                                <img src="img/Ellipse21.png" alt="">
+                            </div>
+                            <div class="info-roommates">
+                                <span class="number-roommates">3</span> Roommates <br>
+                                <span class="name-of-roommates">Roni, Alex and Mike</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="block-text">
+                        <div class="block-title">
+                            <h3>The People's Brownstone</h3>
+                        </div>
+                        <div class="block-location">
+                            <img src="img/map-point-icon.svg" alt="map-point-icon">
+                            <span class="text-location">1995 Broadway, New York</span>
+                        </div>
+                        <div class="block-features">
+                            Wifi • Air conditioning • Kitchen • Heating • Smokers
+                            • Parking • Balcony • Animal friendly
+                        </div>
+                        <div class="block-tags">
+                            <span class="tag-blue">Looking for a male roommate</span>
+                            <span class="tag-red">Sublet</span>
+                        </div>
+                        <div class="block-footer">
+                            <div class="block-footer-rewiews">
+                                <span class="number-of-rating">5</span>
+                                <div class="rating-2">
+                                    <input type="radio" class="rating-input" id="star5-second" name="rating2" value="5" checked /><label for="star5-second"></label>
+                                    <input type="radio" class="rating-input" id="star4-second" name="rating2" value="4" /><label for="star4-second"></label>
+                                    <input type="radio" class="rating-input" id="star3-second" name="rating2" value="3" /><label for="star3-second"></label>
+                                    <input type="radio" class="rating-input" id="star2-second" name="rating2" value="2" /><label for="star2-second"></label>
+                                    <input type="radio" class="rating-input" id="star1-second" name="rating2" value="1" /><label for="star1-second"></label>
+                                </div>
+                                <span class="number-of-rewiews">(14 Reviews)</span>
+                            </div>
+                            <div class="block-footer-price">
+                                <span class="floor-price">2440</span>
+                                /month
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="block-like-icon">
+                        <a href="#"><i class="far fa-heart"></i></a>
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="block-image">
+                        <div class="block-info">
+                            <div class="photo-roommates">
+                                <img src="img/Ellipse19.png" alt="">
+                            </div>
+                            <div class="info-roommates">
+                                <span class="number-roommates">1</span> Roommates <br>
+                                <span class="name-of-roommates">Gill</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="block-text">
+                        <div class="block-title">
+                            <h3>The People's Brownstone</h3>
+                        </div>
+                        <div class="block-location">
+                            <img src="img/map-point-icon.svg" alt="map-point-icon">
+                            <span class="text-location">1995 Broadway, New York</span>
+                        </div>
+                        <div class="block-features">
+                            Wifi • Air conditioning • Kitchen • Heating • Smokers
+                            • Parking • Balcony • Animal friendly
+                        </div>
+                        <div class="block-tags">
+                            <span class="tag-blue">New Building</span>
+                            <span class="tag-green">Common Friends</span>
+                        </div>
+                        <div class="block-footer">
+                            <div class="block-footer-rewiews">
+                                <span class="number-of-rating">2</span>
+                                <div class="rating-3">
+                                    <input type="radio" class="rating-input" id="star5-3" name="rating3" value="5" /><label for="star5-3"></label>
+                                    <input type="radio" class="rating-input" id="star4-3" name="rating3" value="4" /><label for="star4-3"></label>
+                                    <input type="radio" class="rating-input" id="star3-3" name="rating3" value="3" /><label for="star3-3"></label>
+                                    <input type="radio" class="rating-input" id="star2-3" name="rating3" value="2" checked /><label for="star2-3"></label>
+                                    <input type="radio" class="rating-input" id="star1-3" name="rating3" value="1" /><label for="star1-3"></label>
+                                </div>
+                                <span class="number-of-rewiews">(1 Reviews)</span>
+                            </div>
+                            <div class="block-footer-price">
+                                <span class="floor-price">960</span>
+                                /month
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="block-like-icon">
+                        <a href="#"><i class="far fa-heart"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-right-side">
+            <div class="map"></div>
+        </div>
+    </main>
+    <script src="main.js"></script>
+</body>
+
+</html>
